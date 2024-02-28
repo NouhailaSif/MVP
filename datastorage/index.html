@@ -1,0 +1,24 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Storage App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Data Storage App</h1>
+    <form id="dataForm">
+      <label for="title">Title:</label>
+      <input type="text" id="title" required>
+      <label for="content">Content:</label>
+      <textarea id="content" required></textarea>
+      <button type="submit">Save Data</button>
+    </form>
+    <div id="dataList"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
